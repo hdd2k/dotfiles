@@ -156,15 +156,6 @@ eval "$(direnv hook zsh)"
 test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
 
 #-------------------------------------------------------------------------------
-# [Lacework] activate dev env
-#-------------------------------------------------------------------------------
-# Check if command exists before source
-if type "lwenv" > /dev/null; then
-  source lwenv dev2
-fi
-
-
-#-------------------------------------------------------------------------------
 # Activate Oh-My-Zsh
 #-------------------------------------------------------------------------------
 source $ZSH/oh-my-zsh.sh
