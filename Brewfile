@@ -161,6 +161,7 @@ cask 'postman'
 cask 'flux'
 cask 'dropbox'
 cask 'zoom'
+cask 'dash'
 
 #-------------------------------------------------------------------------------
 # Fonts
